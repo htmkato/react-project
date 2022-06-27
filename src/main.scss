@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-5xl font-bold py-4;
+  }
+  h2 {
+    @apply text-4xl font-bold;
+  }
+  h3 {
+    @apply text-3xl font-medium;
+  }
+  h4 {
+    @apply text-2xl font-medium;
+  }
+  h5 {
+    @apply font-medium;
+  }
+
+  a {
+    @apply underline text-blue-400 hover:text-blue-500 font-medium;
+  }
+
+  main {
+    @apply p-4;
+  }
+}
+
+*::marker {
+  font-size: 0px !important; //begone
+}
